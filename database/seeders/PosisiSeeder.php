@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\position;
-use App\Models\division;
+
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -11,10 +11,6 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
        
-        Division::create(['name' => 'Information Technology']);
-        Division::create(['name' => 'Human Resources']);
-        Division::create(['name' => 'Finance']);
-        Division::create(['name' => 'Marketing']);
 
      
         Position::create(['name' => 'Staff']);
