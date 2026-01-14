@@ -7,7 +7,16 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\DivisionController' => $baseDir . '/app/Http/Controllers/DivisionController.php',
+    'App\\Http\\Controllers\\KaryawanController' => $baseDir . '/app/Http/Controllers/KaryawanController.php',
+    'App\\Http\\Controllers\\PositionController' => $baseDir . '/app/Http/Controllers/PositionController.php',
+    'App\\Http\\Requests\\DivisionRequest' => $baseDir . '/app/Http/Requests/DivisionRequest.php',
+    'App\\Http\\Requests\\KaryawanRequest' => $baseDir . '/app/Http/Requests/KaryawanRequest.php',
+    'App\\Http\\Requests\\PositionRequest' => $baseDir . '/app/Http/Requests/PositionRequest.php',
+    'App\\Models\\Karyawan' => $baseDir . '/app/Models/Karyawan.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
+    'App\\Models\\division' => $baseDir . '/app/Models/division.php',
+    'App\\Models\\position' => $baseDir . '/app/Models/position.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Brick\\Math\\BigDecimal' => $vendorDir . '/brick/math/src/BigDecimal.php',

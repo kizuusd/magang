@@ -552,7 +552,16 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
 
     public static $classMap = array (
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\DivisionController' => __DIR__ . '/../..' . '/app/Http/Controllers/DivisionController.php',
+        'App\\Http\\Controllers\\KaryawanController' => __DIR__ . '/../..' . '/app/Http/Controllers/KaryawanController.php',
+        'App\\Http\\Controllers\\PositionController' => __DIR__ . '/../..' . '/app/Http/Controllers/PositionController.php',
+        'App\\Http\\Requests\\DivisionRequest' => __DIR__ . '/../..' . '/app/Http/Requests/DivisionRequest.php',
+        'App\\Http\\Requests\\KaryawanRequest' => __DIR__ . '/../..' . '/app/Http/Requests/KaryawanRequest.php',
+        'App\\Http\\Requests\\PositionRequest' => __DIR__ . '/../..' . '/app/Http/Requests/PositionRequest.php',
+        'App\\Models\\Karyawan' => __DIR__ . '/../..' . '/app/Models/Karyawan.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\division' => __DIR__ . '/../..' . '/app/Models/division.php',
+        'App\\Models\\position' => __DIR__ . '/../..' . '/app/Models/position.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',

@@ -13,12 +13,15 @@ return new class extends Migration
         $table->string('name');
         
        
+        $table->string('gender'); 
+        $table->text('alamat');   
+
         $table->foreignId('position_id')->constrained('positions')->cascadeOnDelete();
         $table->foreignId('division_id')->constrained('divisions')->cascadeOnDelete();
-        
         $table->double('salary');
         $table->timestamps();
     });
+
 }
     public function down(): void
     {
